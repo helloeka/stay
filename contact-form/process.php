@@ -25,7 +25,7 @@ $options['attachment_types']    = array( 'image/jpeg',                    // Arr
                                   );
 
 // Google reCAPTCHA options
-$options['captcha_secret']      = '6LdMp_wUAAAAANvnvr3onj7GKYMbda8TvErqYb-P';                     // secret key
+$options['captcha_secret']      = '6Ld9xq0UAAAAAFetBJp7KI1eXl9JkMBvzbFyMPs8';                     // secret key
 $options['captcha_score_threshold']  = '0.5';                             // V3 spam score threshold
 
 // Attachment management
@@ -35,10 +35,10 @@ $options['attachment_store']    = false;                                  // IMP
 
 // Generic email options
 $options['send_user_ip']        = true;                                   // Sends the user's IP addrrss in the email
-$options['from_address']        = 'info@staysafe.id';               // Address the email is sent from
+$options['from_address']        = 'melodianingrum@gmail.com';               // Address the email is sent from
 $options['from_name']           = 'staysafe';                              // Name to attach to the address
-$options['to_addresses']        = array( 'info@staysafe.id' );               // To: addresse(s), add new array item for more
-$options['bcc_addresses']       = array( 'info@staysafe.id' );               // BCC: addresse(s), add new array item for more
+$options['to_addresses']        = array( 'melodianingrum@gmail.com' );               // To: addresse(s), add new array item for more
+$options['bcc_addresses']       = array( 'melodianingrum@gmail.com' );               // BCC: addresse(s), add new array item for more
 
 // Send confirmation message of successful email to end user
 $options['email_confirmation']  = true;                                  // Should the end user get a confirmation email?
@@ -47,8 +47,8 @@ $options['email_confirmation']  = true;                                  // Shou
 $options['use_smtp']            = true;                                  // Should the email be sent via SMTP, or default PHP mail server?
 $options['smtp_host']           = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $options['smtp_auth']           = true;                                   // Enable SMTP authentication
-$options['smtp_username']       = 'info@staysafe.id';                             // SMTP username
-$options['smtp_password']       = 'staysaf3INFO123';                             // SMTP password
+$options['smtp_username']       = 'melodianingrum@gmail.com';                             // SMTP username
+$options['smtp_password']       = 'melodianingrum2015';                             // SMTP password
 $options['smtp_secure']         = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
 $options['smtp_port']           = 465 ; 
 

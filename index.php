@@ -81,7 +81,7 @@
 
 				<!-- Google reCAPTCHA -->
 				<input type="hidden" name="g-recaptcha-response" />
-				<script src="https://www.google.com/recaptcha/api.js?render=6LdMp_wUAAAAAMsULPezoF0zL4_h1X0dfY8PVci4"></script>
+				<script src="https://www.google.com/recaptcha/api.js?render=6Ld9xq0UAAAAAAdxukumlRpG88LsYDLM2R5LNiU7"></script>
 				<script>
 					grecaptcha.ready(function () {
 						jQuery('form.ucf').each(function(){
@@ -89,7 +89,7 @@
 							$form.find('button[type=submit]').click(function (e) {
 								e.preventDefault();
 								$submitbtn = $(this);
-								grecaptcha.execute('6LdMp_wUAAAAAMsULPezoF0zL4_h1X0dfY8PVci4', {
+								grecaptcha.execute('6Ld9xq0UAAAAAAdxukumlRpG88LsYDLM2R5LNiU7', {
 									action: 'contactform'
 								}).then(function (token) {
 									$submitbtn.closest('form.ucf').find('input[name=g-recaptcha-response]').val(token);
